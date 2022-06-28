@@ -7,6 +7,8 @@ myURL=$1
 
 function killChromeProcesses() {
 
+
+
 echo "Starting to kill all chrome processes on system"
 
 for PROCESSID in $(ps aux | grep "Google Chrome" | awk '{print $2}')
